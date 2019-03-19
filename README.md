@@ -1,14 +1,6 @@
-# A Blank PhoneGap App
+# Kollage
 
-## Usage
+Converts a picture taken by a user into a puzzle
 
-### PhoneGap CLI
-
-    $ phonegap create my-app --template blank
-
-### Desktop
-
-In your browser, open the file:
-
-    /www/index.html
+## Features
 
