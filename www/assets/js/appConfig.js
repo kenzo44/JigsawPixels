@@ -1,11 +1,5 @@
 var app = new Framework7({
-    root: "#app", //this is the app element
-    routes: [
-        {
-            path: '/page2/',
-            url: 'pages/page2.html'
-        }
-    ]
+    root: "#app"//this is the app element
 })
 
 var mainView = app.views.create('.view-main');
@@ -21,7 +15,7 @@ function init() {
         navigator.camera.getPicture(success, error, cameraOptions);
 
     });
-    
+
     var cameraOptions = {
         //Default 50 range 0-100
         quality: 80
@@ -30,8 +24,8 @@ function init() {
     };
 
     function success(imageURI) {
-        console.log("great pic");
-        $("#takePic").after("<img src='" + imageURI + "'>");
+        return imageURI;
+//        $("#dv1").after("<img src='" + imageURI + "'>");   
     }
 
     function error(message) {

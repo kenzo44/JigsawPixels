@@ -21,7 +21,7 @@ function init() {
         navigator.camera.getPicture(success, error, cameraOptions);
 
     });
-    
+
     var cameraOptions = {
         //Default 50 range 0-100
         quality: 80
@@ -30,8 +30,8 @@ function init() {
     };
 
     function success(imageURI) {
-        console.log("great pic");
-        $("#takePic").after("<img src='" + imageURI + "'>");
+        return imageURI;
+//        $("#dv1").after("<img src='" + imageURI + "'>");   
     }
 
     function error(message) {
