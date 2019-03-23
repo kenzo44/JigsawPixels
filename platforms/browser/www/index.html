@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title>Kollage</title>
+
+    <!--Framework 7 Stylesheet-->
+    <link rel="stylesheet" href="assets/css/framework7.min.css">
+    <link rel="stylesheet" href="assets/css/display.css">
+    <link rel="stylesheet" href="assets/css/puzzleimg.css">
+    <!--Puzzle API-->
+    <script type="text/javascript" src="assets/js/puzzleimg.js"></script>
+    <!--Material icons-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+    <div id="app">
+        <div class="view view-main">
+
+            <div class="page" data-name="home">
+
+                <!-- Top Navbar -->
+                <div class="navbar no-shadow">
+                    <div class="navbar-inner">
+                        <div class="title"><i class="fas fa-puzzle-piece logo"></i> Jigsaw Pixels</div>
+                        <div class="right" style="margin-right: 16px;"><i class="fas fa-sync-alt smallLogo" onclick="freshStart()"></i></div>
+                    </div>
+                </div>
+
+                <div class="page-content">
+                    <button id="takePic" class="button"><i class="fas fa-camera"></i></button>
+                    <div id="dv1">
+                        <img id="work" class="imgs responsive" src="assets/img/waterfall.jpg" />
+                    </div>
+                    <script>
+                        //<![CDATA[
+                        //function called when the puzzle is completed
+                        var solved = function() {
+                            alert('Congratulations');
+                        }
+
+                        //converts into puzzle all the images with class "imgs" in Div elements
+                        //sets 3 columns and 4 rows, and value 0 for the 4th argument to Not display the button that solves the puzzle (1 to show it)
+                        //calls the solved() function when the puzzle is completed
+                        imgToPuzzle('div .imgs', 3, 4, 1, solved);
+                        // ]]>
+                    </script>
+                </div>
+
+            </div>
+            <!--end page-->
+        </div>
+        <!--end main view-->
+    </div>
+    <!--end app-->
+    <script>
+        function freshStart() {
+            window.location.reload();
+        }
+    </script>
+    <script type="text/javascript" src="cordova.js"></script>
+    <!--Framework 7-->
+    <script type="text/javascript" src="assets/js/framework7.min.js"></script>
+    <script type="text/javascript" src="assets/js/appConfig.js"></script>
+    <script type="text/javascript" src="assets/js/jquery-3.3.1.min.js"></script>
+
+
+    <script defer src="https://use.fontawesome.com/releases/v5.7.1/js/all.js" integrity="sha384-eVEQC9zshBn0rFj4+TU78eNA19HMNigMviK/PU/FFjLXqa/GKPgX58rvt5Z8PLs7" crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -31,8 +31,10 @@ function PuzzleImg(id_p, im, cols, rows, wg, hg){
   function setElms(id_p, im){
     //set1 properties
     img = im;
-    if(width =='') width = img.width;
-    if(height =='') height = img.height;
+    //if(width =='') width = img.width;
+    //if(height =='') height = img.height;
+      if(width =='') width = window.innerWidth;
+      if(height =='') height = window.innerHeight;
 
     //add canvas and solve button
     var parent = document.getElementById(id_p);

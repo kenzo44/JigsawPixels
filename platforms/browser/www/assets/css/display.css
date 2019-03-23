@@ -3,32 +3,27 @@
     src: url(../font/jigsawtrouserdrop.otf);
     font-family: Jig;
 }
-
 @font-face {
     src: url(../font/OpenSans-Regular.ttf);
     font-family: Openssans;
 }
-
 * {
     box-sizing: border-box;
 }
-
 .navbar {
     background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%) !important;
     font-family: Jig !important;
     font-size: 30px !important;
 }
-
 .smallLogo {
     font-size: 20px !important;
 }
-
 .page-content {
-    background-image: linear-gradient(to top, #bdc2e8 0%, #bdc2e8 1%, #e6dee9 100%);
+    background-color: #ad8049;
+    background-image: url("../img/wood-pattern.png");
     font-family: Openssans !important;
     overflow-x: hidden;
 }
-
 #takePic {
     display: inline-block;
     position: fixed;
