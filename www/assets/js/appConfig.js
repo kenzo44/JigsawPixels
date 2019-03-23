@@ -1,5 +1,5 @@
 var app = new Framework7({
-    root: "#app"//this is the app element
+    root: "#app" //this is the app element
 })
 
 var mainView = app.views.create('.view-main');
@@ -25,7 +25,7 @@ function init() {
 
     function success(imageURI) {
         return imageURI;
-//        $("#dv1").after("<img src='" + imageURI + "'>");   
+        //        $("#dv1").after("<img src='" + imageURI + "'>");   
     }
 
     function error(message) {

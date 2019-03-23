@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.phonegap.helloworld" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>Kollage</name>
+    <name>Jigsaw Pixels</name>
     <description>
-        Design and develop an application that explores our relationship with mobile media and/or mobility
+        Converts a picture taken by a user into a puzzle
     </description>
     <author email="support" href="https://www.kenishsuri.com/">
         Kenish Suri

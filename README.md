@@ -1,4 +1,4 @@
-# Kollage
+# Jigsaw Pixels
 
 Converts a picture taken by a user into a puzzle
 
