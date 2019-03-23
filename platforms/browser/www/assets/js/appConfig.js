@@ -13,19 +13,15 @@ function init() {
     $("#takePic").on("click", function () {
         console.log("yaye");
         navigator.camera.getPicture(success, error, cameraOptions);
-
     });
 
     var cameraOptions = {
         //Default 50 range 0-100
         quality: 80
-
-
     };
 
     function success(imageURI) {
-        return imageURI;
-        //        $("#dv1").after("<img src='" + imageURI + "'>");   
+        var puz1 = new PuzzleImg('dv1', imageURI, 5, 4, window.innerWidth, window.innerHeight);
     }
 
     function error(message) {
