@@ -39,7 +39,7 @@ function PuzzleImg(id_p, im, cols, rows, wg, hg){
     //add canvas and solve button
     var parent = document.getElementById(id_p);
     id_solv = id_p +'_solv';
-    parent.innerHTML ='<canvas id="'+ id_p +'_cnv" width="'+ width +'" height="'+ height +'" class="puzcnv"></canvas><button id="'+ id_p +'_solv" class="puzsolve">CHEAT!</button><img src="'+ img.src +'" width="'+ width /3 +'" height="'+ height /3 +'" class="puzimg" />';
+    parent.innerHTML ='<canvas id="'+ id_p +'_cnv" width="'+ width +'" height="'+ height +'" class="puzcnv"></canvas><button id="'+ id_p +'_solv" class="puzsolve"><i class="fas fa-pencil-alt"></i> CHEAT!</button><img src="'+ img.src +'" width="'+ width /3 +'" height="'+ height /3 +'" class="puzimg" />';
     parent.style.width = width +2 +'px';;
 
     //set2 properties

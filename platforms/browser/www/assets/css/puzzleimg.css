@@ -6,17 +6,19 @@
 /* Canvas with puzzle */
 .puzcnv {
     display: block;
+    -webkit-box-shadow: 7px 4px 8px 3px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: 7px 4px 8px 3px rgba(0, 0, 0, 0.6);
+    box-shadow: 7px 4px 8px 3px rgba(0, 0, 0, 0.6);
 }
 
 /* Mini-image that shows original image */
 .puzimg {
-    margin-top: 30px;
     margin-left: 10px;
     width: 50%;
     height: auto;
-    -webkit-box-shadow: 7px 11px 13px 6px rgba(0, 0, 0, 0.6);
-    -moz-box-shadow: 7px 11px 13px 6px rgba(0, 0, 0, 0.6);
-    box-shadow: 7px 11px 13px 6px rgba(0, 0, 0, 0.6);
+    -webkit-box-shadow: 7px 4px 8px 3px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: 7px 4px 8px 3px rgba(0, 0, 0, 0.6);
+    box-shadow: 7px 4px 8px 3px rgba(0, 0, 0, 0.6);
     margin-bottom: 10px;
 }
 
@@ -24,12 +26,18 @@
 .puzsolve {
     display: block;
     position: relative;
-    color: #fff;
     padding: 10px;
-    width: 200px;
-    margin: auto;
+    width: auto;
+    margin: 25px auto;
     font-size: 20px;
-    text-align: center;
+
+    border-width: 0;
+    outline: none;
+    border-radius: 2px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .7);
+
     background-color: #f39c12;
-    border-radius: 15px;
+    color: #333;
+
+    transition: background-color .3s;
 }
