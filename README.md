@@ -10,4 +10,3 @@ Converts a picture taken by a user into a puzzle
 
 Credit to 
 - https://coursesweb.net/javascript/image-puzzle-game-script
-- http://www.netzgesta.de/snapfit/
