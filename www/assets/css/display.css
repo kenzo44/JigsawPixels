@@ -1,7 +1,7 @@
 /*Fonts*/
 @font-face {
-    src: url(../font/Calligraffitti-Regular.ttf);
-    font-family: Calli;
+    src: url(../font/jigsawtrouserdrop.otf);
+    font-family: Jig;
 }
 
 @font-face {
@@ -15,7 +15,7 @@
 
 .navbar {
     background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%) !important;
-    font-family: Calli !important;
+    font-family: Jig !important;
     font-size: 30px !important;
 }
 
