@@ -21,7 +21,7 @@ function init() {
     };
 
     function success(imageURI) {
-        var puz1 = new PuzzleImg('dv1', imageURI, 5, 4, window.innerWidth, window.innerHeight);
+        var puz1 = new PuzzleImg('dv1', imageURI, 4, 5, window.innerWidth, window.innerHeight);
     }
 
     function error(message) {
