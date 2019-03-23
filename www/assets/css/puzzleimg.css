@@ -2,18 +2,24 @@
 .puzelm {
     position: relative;
 }
+
 /* Canvas with puzzle */
 .puzcnv {
     display: block;
 }
+
 /* Mini-image that shows original image */
 .puzimg {
     margin-top: 30px;
     margin-left: 10px;
     width: 50%;
     height: auto;
-    cursor: pointer;
+    -webkit-box-shadow: 7px 11px 13px 6px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: 7px 11px 13px 6px rgba(0, 0, 0, 0.6);
+    box-shadow: 7px 11px 13px 6px rgba(0, 0, 0, 0.6);
+    margin-bottom: 10px;
 }
+
 /* Button that auto-solves the puzzle */
 .puzsolve {
     display: block;
