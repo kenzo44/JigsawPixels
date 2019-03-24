@@ -43,7 +43,8 @@
 .textBox p{
     font-weight: bold;
     font-family: Openssans !important;
-    text-align: center;
+    text-align: left;
+    margin-left: 10px;
     color: #333;
     font-size: 25px;
     text-shadow: 0px 1px 0px rgba(255,255,255,.2), 0px -1px 0px rgba(0,0,0,.8);
