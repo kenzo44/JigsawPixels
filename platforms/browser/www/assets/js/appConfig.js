@@ -17,7 +17,8 @@ function init() {
 
     var cameraOptions = {
         //Default 50 range 0-100
-        quality: 80
+        quality: 80,
+        correctOrientation: true
     };
 
     function success(imageURI) {
