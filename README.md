@@ -1,6 +1,6 @@
 # Jigsaw Pixels
 
-Converts a picture taken by a user into a puzzle
+Converts a picture taken by a user's front or rear camera into a puzzle
 
 ## Features
 
