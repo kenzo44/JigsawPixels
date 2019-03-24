@@ -32,7 +32,8 @@
 
                 <div class="page-content">
                     <div class="textBox">
-                        <p>Puzzle of the Day!</p>
+                        <div class="first">Puzzle of the Day!</div>
+                        <div class="second"><a class="link sheet-open" href="#" data-sheet=".my-sheet"><i class="fas fa-info-circle"></i></a></div>
                     </div>
                     <button id="takePic" class="button"><i class="fas fa-camera"></i></button>
                     <div id="dv1">
@@ -50,7 +51,29 @@
                         //calls the solved() function when the puzzle is completed
                         imgToPuzzle('div .imgs', 4, 5, 1, solved);
                         // ]]>
+
                     </script>
+
+                    <!--Help Modal-->
+                    <div class="sheet-modal my-sheet">
+                        <div class="toolbar">
+                            <div class="toolbar-inner">
+                                <div class="left">What else can I do?</div>
+                                <div class="right"><a class="link sheet-close" href="#"><i class="fas fa-times-circle"></i></a></div>
+                            </div>
+                        </div>
+                        <div class="sheet-modal-inner">
+                            <div class="block">
+                                <p>
+                                    - Solve the "Puzzle of the Day" which is handpicked daily<br>
+                                    - Take a portrait using your font or rear camera and solve it<br>
+                                    - Create an abstract puzzle using your custom picture and share with friends and family<br><br>
+                                    
+                                    * As of right now, we do not support landscape pictures.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
 
                     <div class="me">Developed by <i class="fa fa-paw" aria-hidden="true"></i> Kenish Suri</div>
                 </div>
@@ -65,6 +88,7 @@
         function freshStart() {
             window.location.reload();
         }
+
     </script>
     <script type="text/javascript" src="cordova.js"></script>
     <!--Framework 7-->
