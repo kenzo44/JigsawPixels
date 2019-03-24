@@ -27,7 +27,7 @@
 #takePic {
     display: inline-block;
     position: fixed;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%) !important;
     color: white;
     font-size: 30px;
     border-radius: 100%;
