@@ -12,7 +12,9 @@ Converts a picture taken by a user's front or rear camera into a puzzle
 
 ## Screenshots
 
-![Alt text](/JigsawPixels/assets/jp_hero.jpeg  "Optional Title")
+![Alt text](https://github.com/kenzo44/JigsawPixels/blob/master/assets/jp_hero.jpeg "Hero Image")
+
+![Alt text](https://github.com/kenzo44/JigsawPixels/blob/master/assets/jp_hero2.jpeg "Hero Image")
 
 Credit to 
 - https://coursesweb.net/javascript/image-puzzle-game-script
