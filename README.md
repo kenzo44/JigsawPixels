@@ -1,6 +1,6 @@
 # Jigsaw Pixels
 
-Converts a picture taken by a user's front or rear camera into a puzzle
+Created an iOS/Android game that converts a picture taken by a user into a puzzle. User needs to solve the puzzle before time runs out! 
 
 ## Features
 
