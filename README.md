@@ -10,5 +10,9 @@ Converts a picture taken by a user's front or rear camera into a puzzle
 - Create an abstract puzzle using your custom picture and share with friends and family
 - Tap on cheat and the picture is solved
 
+## Screenshots
+
+![Alt text](/JigsawPixels/assets/jp_hero.jpeg  "Optional Title")
+
 Credit to 
 - https://coursesweb.net/javascript/image-puzzle-game-script
